@@ -21,11 +21,11 @@ st.markdown("""
     "This Streamlit app is designed to simplify the management of secrets for your Streamlit applications (after I personally spent hours figuring out the right configuration). You can easily convert your JSON secret files into TOML format, which is the correct format for Streamlit's secret management system, or for any other purposes. Additionally, the app allows you to convert TOML files back into JSON format, making it easier to work with both formats and verify the conversion."
     
     **Important**: 
-    - To create a secret key in the TOML, it should be structured like this:
+    - To create a secret key in the TOML, it should be structured like this: [reference](https://docs.streamlit.io/develop/api-reference/connections/secrets.toml)
       ```toml
       key_name = {}
       ```
-    - In your Python code, access the secret using:
+    - In your Python code, access the secret using: [reference](https://docs.streamlit.io/develop/api-reference/connections/st.secrets)
       ```python
       st.secrets["key_name"]
       ```
