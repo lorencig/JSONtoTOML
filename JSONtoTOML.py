@@ -30,7 +30,7 @@ st.markdown("""
       st.secrets["key_name"]
       ```
 
-    For more details, refer to [Secrets Management from Streamlit](https://www.notion.so/snowflake-corp/Secrets-Management-730c82af2fc048d383d668c4049fb9bf). """)
+    For more details, refer to [Secrets Management from Streamlit](https://docs.streamlit.io/develop/concepts/connections/secrets-management) or [this collection](https://www.notion.so/snowflake-corp/Secrets-Management-730c82af2fc048d383d668c4049fb9bf). """)
 st.markdown('##')
 col1, col2 = st.columns([2, 3])
 with col1:
